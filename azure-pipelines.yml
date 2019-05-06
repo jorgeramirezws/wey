@@ -28,6 +28,6 @@ steps:
     productName: 'My Product'
     requesterEmail: 'jorge.ramirez@whitesourcesoftware.com'
     projectRule: 'projectName'
-    projectName: 'FirstAzureDevOpsPlugin_with_NodeJs'
+    projectName: 'AzureDevOps with Plugin - NodeJs'
     WhiteSourceService: 'WhiteSource Azure Plugin Connection'
     connectionRetries: 2
