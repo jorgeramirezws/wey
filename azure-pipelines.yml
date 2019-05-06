@@ -14,6 +14,7 @@ steps:
   inputs:
     script: 'echo Downloading Unified Agent
       curl -LJO https://github.com/whitesource/unified-agent-distribution/raw/master/standAlone/wss-unified-agent.jar'
+    failOnStderr: true
 
 - task: NodeTool@0
   inputs:
@@ -29,3 +30,4 @@ steps:
   inputs:
     script: 'echo Run the UA Agent
       java -jar wss-unified-agent.jar -c wss-unified-agent.config -apiKey 159ca6400ebd49858e2bfdc0a73c2aef49b6da45c27a461a8b33b3552ef5f49b -product "My Product" -project "AzureDevOps with UA - NodeJs"'
+    failOnStderr: true
