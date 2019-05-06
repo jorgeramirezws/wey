@@ -29,3 +29,5 @@ steps:
     requesterEmail: 'jorge.ramirez@whitesourcesoftware.com'
     projectRule: 'projectName'
     projectName: 'FirstAzureDevOpsPlugin_with_NodeJs'
+    WhiteSourceService: 'WhiteSource Azure Plugin Connection'
+    connectionRetries: 2'
