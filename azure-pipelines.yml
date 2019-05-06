@@ -22,7 +22,7 @@ steps:
 
 - task: WhiteSource@19
   inputs:
-    cwd: 'https://github.com/jorgeramirezws/wey'
+    cwd: '$(Build.SourcesDirectory)'
     extensions: '.m .mm .js .php'
     checkPolicies: 'SEND_ALERTS'
     productName: 'My Product'
