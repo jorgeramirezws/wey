@@ -22,7 +22,7 @@ steps:
 
 - task: WhiteSource@19
   inputs:
-    cwd: 'jorgeramirezws/wey'
+    cwd: 'https://github.com/jorgeramirezws/wey'
     extensions: '.m .mm .js .php'
     checkPolicies: 'SEND_ALERTS'
     productName: 'My Product'
@@ -30,4 +30,4 @@ steps:
     projectRule: 'projectName'
     projectName: 'FirstAzureDevOpsPlugin_with_NodeJs'
     WhiteSourceService: 'WhiteSource Azure Plugin Connection'
-    connectionRetries: 2'
+    connectionRetries: 2
