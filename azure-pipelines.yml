@@ -22,7 +22,7 @@ steps:
 
 - task: WhiteSource@19
   inputs:
-    cwd: '/jorgeramirezws/wey'
+    cwd: 'jorgeramirezws/wey'
     extensions: '.m .mm .js .php'
     checkPolicies: 'SEND_ALERTS'
     productName: 'My Product'
