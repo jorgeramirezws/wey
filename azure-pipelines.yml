@@ -13,7 +13,6 @@ steps:
 - task: CmdLine@2
   inputs:
     script: 'curl -LJO https://github.com/whitesource/unified-agent-distribution/raw/master/standAlone/wss-unified-agent.jar'
-    failOnStderr: true
 
 - task: NodeTool@0
   inputs:
