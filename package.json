@@ -45,8 +45,8 @@
     "readable-size": "0.2.0",
     "sanitize-html": "1.20.0",
     "string-replace-async": "1.2.1"
+    "yackage": "^0.2.11"
   },
   "devDependencies": {
-    "yackage": "0.2.10"
   }
 }
