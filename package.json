@@ -49,7 +49,7 @@
     "yackage": "0.2.10"
   },
   "devDependencies": {
-    
+    "lodash": "4.0.0"
   }
    
 }
